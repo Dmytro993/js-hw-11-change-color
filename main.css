@@ -1,0 +1,27 @@
+body{
+    background:#fff;
+}
+.btn{
+    text-decoration:none;
+    width: 100px;
+    height: 50px;
+    color: red;
+    background-color: black;
+}
+.btn:hover{
+    background-color: #fff;
+}
+.btn+.btn{
+    margin-left: 20px;
+}
+.box{
+    display:flex;
+    justify-content: center;
+    padding-top:50px;
+}
+.text{
+    
+    font-weight: bold;
+    color: tomato;
+    text-align: center;
+}
